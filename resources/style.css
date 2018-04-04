@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -6,6 +10,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  height: 80px;
   background-color: white;
   border-bottom: 1px solid black;
   z-index: 5;
@@ -56,4 +61,50 @@ nav span {
   display: inline-block;
   margin-right: 30px;
   border: 1px solid black;
+}
+
+span, p {
+  border: 1px solid black;
+}
+
+.image-content {
+  display: flex;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  height: 300px;
+}
+
+.tuna {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
+  font-size: 40px;
+}
+
+.fall-cancelled {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+}
+
+.pop-culture {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+}
+
+.cat {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+}
+
+.narrative {
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
