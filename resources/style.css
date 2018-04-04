@@ -47,6 +47,7 @@ nav span {
 
 .column.large {
   width: 630px;
+  flex-direction: row;
 }
 
 .column.medium {
@@ -58,7 +59,7 @@ nav span {
 }
 
 .column {
-  display: inline-block;
+  display: flex;
   margin-right: 30px;
   border: 1px solid black;
 }
@@ -74,11 +75,14 @@ span, p {
   color: white;
   font-weight: bold;
   height: 300px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .tuna {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
   font-size: 40px;
+  width: 630px;
 }
 
 .fall-cancelled {
@@ -107,4 +111,12 @@ span, p {
 h2, h3 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.story {
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
 }
