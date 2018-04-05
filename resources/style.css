@@ -2,6 +2,8 @@
   margin: 0px;
 }
 
+/* The Header section */
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -36,18 +38,34 @@ nav {
 nav span {
   display: inline-block;
   padding: 15px;
+}
+
+a {
   color: black;
 }
+
+/* News content */
 
 .content {
   display: flex;
   padding-top: 100px;
   margin-bottom: 100px;
+  width: 1232px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
 }
 
 .column.large {
   width: 630px;
-  flex-direction: row;
 }
 
 .column.medium {
@@ -59,7 +77,6 @@ nav span {
 }
 
 .column {
-  display: flex;
   margin-right: 30px;
   border: 1px solid black;
 }
@@ -68,6 +85,8 @@ span, p {
   border: 1px solid black;
 }
 
+/* Common picture features */
+
 .image-content {
   display: flex;
   font-family: Georgia;
@@ -75,7 +94,6 @@ span, p {
   color: white;
   font-weight: bold;
   height: 300px;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -83,6 +101,7 @@ span, p {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
   font-size: 40px;
   width: 630px;
+  text-align: left;
 }
 
 .fall-cancelled {
@@ -111,12 +130,4 @@ span, p {
 h2, h3 {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.story {
-  flex-direction: column;
-}
-
-.stories {
-  display: flex;
 }
